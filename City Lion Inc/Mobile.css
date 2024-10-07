@@ -1,0 +1,91 @@
+
+
+@media (max-width: 600px) {
+  .about-container {
+      grid-template-columns: 1fr; /* Single column layout */
+      gap: 20px; /* Adjust as needed */
+  }
+  .about-ima {
+      width: 100%; /* Full width for the image */
+  }
+
+
+  .bigimage {
+    width: 250px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
+
+
+.intro-container h1{
+  font-size: 4vw;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+}
+
+
+.intro-container h1::first-line{
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  text-shadow: 0 5px 4px rgba(255, 92, 42, 0.719);
+ 
+}
+
+
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  /* Adjust styles as needed */
+}
+
+/* Large screens (desktop) */
+@media (min-width: 1025px) {
+  /* Adjust styles as needed */
+}
+
+
+
+@media(max-width: 763px) {
+
+  .request-container, .about-container{
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+.about-content{
+  max-width: 100%;
+}
+
+
+
+.intro-container h1{
+  font-size: 4vw;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+}
+
+
+.bigimage {
+  width: 250px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
+.intro-container h1::first-line{
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  text-shadow: 0 5px 4px rgba(255, 92, 42, 0.719);
+ 
+}
+
+
+}
