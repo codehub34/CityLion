@@ -9,6 +9,11 @@
       width: 100%; /* Full width for the image */
   }
 
+  .service-head{
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+  }
 
   .bigimage {
     width: 250px;
