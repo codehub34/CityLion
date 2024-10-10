@@ -206,6 +206,11 @@ header{
   border-radius: 5px;
 }
 
+.service-content{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 }
 
 @media (max-width: 668px) {
@@ -225,6 +230,12 @@ header{
   
 .ima-box img{
   max-width: 100%;
+}
+
+
+.service-content{
+  display: flex;
+  flex-wrap: wrap;
 }
 }
 
