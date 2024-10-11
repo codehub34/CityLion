@@ -35,3 +35,15 @@ let year = document.querySelector("#year");
 $(document).ready(function () {
   year.innerText = new Date().getFullYear();
 });
+
+function MyView(){
+    alert("Hello, World!");
+
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+    const button = document.getElementById('view');
+    button.onclick = function () {
+        alert("Button clicked!");
+    };
+});
