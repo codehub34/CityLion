@@ -206,10 +206,7 @@ header{
   border-radius: 5px;
 }
 
-.service-content{
-  display: flex;
-  flex-wrap: wrap;
-}
+
 
 }
 
@@ -218,24 +215,26 @@ header{
     min-width: 100%;
   }
 
-  
-.service-head .service-content{
-  padding-top: 5%;
-   display: grid;
-   grid-template-columns: repeat(1, 1fr);
-   row-gap: 10px;
-   column-gap: 10px;
-   
-  }
-  
 .ima-box img{
   max-width: 100%;
 }
 
+.service-item img{
+  width: 100%;
+  border-radius: 45px 5px;
+}
+
 
 .service-content{
-  display: flex;
-  flex-wrap: wrap;
+padding-top: 3%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-grow: 1;
+ flex-wrap: wrap;
+
+
+ 
 }
 }
 
@@ -558,6 +557,8 @@ header{
   background-color: transparent;
   color: white;
   padding: 5% 50px;
+  width: 100%;
+  /* max-width: 40rem; */
 }
 
 
@@ -583,20 +584,23 @@ header{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 200;
 }
-
-.service-item img{
+.service-item {
   width: 400px;
+}
+.service-item img{
+  width: 350px;
   height: 300px;
   border-radius: 45px 5px;
 }
 
 
 .service-content{
-padding-top: 5%;
- display: grid;
- grid-template-columns: repeat(3, 1fr);
- row-gap: 10px;
- column-gap: 10px;
+padding-top: 3%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+
  
 }
 
@@ -678,6 +682,7 @@ padding-top: 5%;
   color: #ffffff;
   font-size: 19px;
   text-transform: uppercase;
+  border: 2px solid white;
   background-color: #ff3908;
 }
 
@@ -717,7 +722,24 @@ padding-top: 5%;
  justify-content: center;
  }
 
+ .service-item img{
+  width: 200px;
+  height: 150px;
+  border-radius: 45px 5px;
+}
 
+
+.service-content{
+padding-top: 3%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-grow: 1;
+ flex-wrap: wrap;
+
+
+ 
+}
 
  .team-heading h1{
   text-align: center;
